@@ -9,6 +9,10 @@ b = random.randint(1,6)
 #Total value
 t = a+b
 
+# Greeting
+name = input("Hello, What's your name?")
+print("Hello " + name +"!")
+
 print ("Rolling dice...")
 print ("Die 1:", a)
 print ("Die 2:", b)
