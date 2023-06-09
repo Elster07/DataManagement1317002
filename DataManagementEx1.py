@@ -13,3 +13,8 @@ print ("Rolling dice...")
 print ("Die 1:", a)
 print ("Die 2:", b)
 print ("Total value:", t)
+
+if t > 7:
+    print("You won!")
+else: 
+    print("You lost!")
